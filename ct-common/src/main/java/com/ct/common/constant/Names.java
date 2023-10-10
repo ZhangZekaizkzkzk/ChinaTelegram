@@ -15,4 +15,14 @@ public enum Names implements Value {
     public String value() {
         return name;
     }
+
+    @Override
+    public void setValue(Object val) {
+        this.name = (String) val;
+    }
+
+    @Override
+    public Object getValue() {
+        return null;
+    }
 }
