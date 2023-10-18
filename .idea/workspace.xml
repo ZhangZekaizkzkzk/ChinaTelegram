@@ -9,26 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55dfad46-e7f0-40e3-b32d-3537c5c81021" name="更改" comment="从本地文件中获取通讯录">
-      <change afterPath="$PROJECT_DIR$/ct-common/src/main/java/com/ct/common/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ct-common/src/main/java/com/ct/common/util/NumberUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ct-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ct-consumer/src/main/java/ct/comsumer/Bootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ct-consumer/src/main/java/ct/comsumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ct-consumer/src/main/java/ct/comsumer/bean/CalllogConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ct-consumer/src/main/resources/consumer.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ct-producer/src/main/java/ct/producer/bean/Calllog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="6287f9df-d647-4276-8ca1-3ef9e036d3ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ct-producer/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ct-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ct-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ct-common/src/main/java/com/ct/common/bean/DataIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/ct-common/src/main/java/com/ct/common/bean/DataIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ct-common/src/main/java/com/ct/common/bean/DataOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/ct-common/src/main/java/com/ct/common/bean/DataOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ct-common/src/main/java/com/ct/common/constant/Names.java" beforeDir="false" afterPath="$PROJECT_DIR$/ct-common/src/main/java/com/ct/common/constant/Names.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ct-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ct-producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ct-producer/src/main/java/ct/producer/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ct-producer/src/main/java/ct/producer/Bootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ct-producer/src/main/java/ct/producer/bean/LocalFileProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ct-producer/src/main/java/ct/producer/bean/LocalFileProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ct-producer/src/main/java/ct/producer/io/LocalFileDataOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/ct-producer/src/main/java/ct/producer/io/LocalFileDataOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,26 +44,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IntelliJ IDEA 2023.1.2/IdeaProjects/CallTelegrameProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IntelliJ IDEA 2023.1.2/IdeaProjects/CallTelegrameProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IntelliJ IDEA 2023.1.2\IdeaProjects\CallTelegrameProject\ct-common\src\main\java" />
