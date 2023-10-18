@@ -4,7 +4,7 @@ import com.ct.common.bean.Value;
 
 // 名称常量枚举类
 public enum Names implements Value {
-    NAMESPACE("ct");
+    NAMESPACE("ct"),TOPIC("ct");
 
     private String name;
     private Names(String name){
@@ -22,7 +22,7 @@ public enum Names implements Value {
     }
 
     @Override
-    public Object getValue() {
-        return null;
+    public String getValue() {
+        return name;
     }
 }

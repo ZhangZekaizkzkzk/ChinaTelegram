@@ -1,7 +1,5 @@
 package com.ct.common.bean;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
 import java.io.Closeable;
 import java.io.FileNotFoundException;
 import java.io.IOException;

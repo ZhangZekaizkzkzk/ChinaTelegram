@@ -14,10 +14,16 @@ import java.io.IOException;
 * */
 public class Bootstrap {
     public static void main(String[] args) throws Exception {
+        if(args.length < 2){
+            System.out.println("参数不正确");
+            System.exit(1);
+        }
         // 构建生产者对象
         Producer  producer = new LocalFileProducer();
-        producer.seiIn(new LocalFileDataIn("E:\\2_混口饭吃\\尚硅谷大数据电信客服\\2.资料\\辅助文档\\contact.log"));
-        producer.setOut(new LocalFileDataOut("E:\\2_混口饭吃\\尚硅谷大数据电信客服\\2.资料\\辅助文档\\call.log"));
+//        producer.seiIn(new LocalFileDataIn("E:\\2_混口饭吃\\尚硅谷大数据电信客服\\2.资料\\辅助文档\\contact.log"));
+//        producer.setOut(new LocalFileDataOut("E:\\2_混口饭吃\\尚硅谷大数据电信客服\\2.资料\\辅助文档\\call.log"));
+        producer.seiIn(new LocalFileDataIn(args[0]));
+        producer.setOut(new LocalFileDataOut(args[1]));
 
         // 生产数据
         producer.produce();
